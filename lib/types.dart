@@ -53,8 +53,8 @@ class SunTimes {
   DateTime? dusk;
   DateTime? nauticalDawn;
   DateTime? nauticalDusk;
-  DateTime? civilDawn;
-  DateTime? civilDusk;
+  DateTime? blueHourEnd;
+  DateTime? blueHour;
   DateTime? nightEnd;
   DateTime? night;
   DateTime? goldenHourEnd;
