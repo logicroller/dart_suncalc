@@ -15,6 +15,7 @@ const double J0 = 0.0009;
 final List<SolarEvent> solarEvents = [
   SolarEvent(-0.833, 'sunrise', 'sunset'),
   SolarEvent(-0.3, 'sunriseEnd', 'sunsetStart'),
+  SolarEvent(-4.0, 'civilDawn', 'civilDusk'),
   SolarEvent(-6.0, 'dawn', 'dusk'),
   SolarEvent(-12.0, 'nauticalDawn', 'nauticalDusk'),
   SolarEvent(-18.0, 'nightEnd', 'night'),

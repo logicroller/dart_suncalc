@@ -124,6 +124,10 @@ SunTimes getSunTimes(DateTime date,
         sunTimes.nauticalDawn = fromJulian(jRise);
         sunTimes.nauticalDusk = fromJulian(jSet);
         break;
+      case 'civilDawn':
+        sunTimes.civilDawn = fromJulian(jRise);
+        sunTimes.civilDusk = fromJulian(jSet);
+        break;
       case 'nightEnd':
         sunTimes.nightEnd = fromJulian(jRise);
         sunTimes.night = fromJulian(jSet);
